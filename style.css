@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin: 0 34px;
+    padding: 8px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav-logo{
+    width: 180px;
+    height: 160px;
+}
+
+.header_nav-items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header_nav-item a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header_nav-item a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    padding: top;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one{
+    color: grey;
+    width: 400px;
+}
+
+.two2{
+    height: 300px;
+    width: 500px;
+    padding-right: 100px;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.item1{
+    height: 50px;
+    width: 50px;
+}
+
+.item2{
+    height: 60px;
+    width: 60px;
+}
+
+.item3{
+    height: 50px;
+    width: 50px;
+}
+
+.item1_sec2 h3{
+    color: orangered;
+    text-align:center;
+    font-weight: lighter;
+}
+.item2_sec2 h3{
+    color: orangered;
+    text-align:center;
+    font-weight: lighter;
+}
+.item3_sec2 h3{
+    color: orangered;
+    text-align:center;
+    font-weight: lighter;
+}
+
+.hero2{
+    display: flex;
+    justify-content: space-between;
+    padding-top:108px; ;
+    align-items: center;
+}
+
+/* Section 3 */
+
+.image1{
+    width: 500px;
+    height: 300px;
+}
+
+.text1{
+    width:500px;
+    color: grey;
+}
+
+/* Section 4 */
+
+.hero3{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 108px;
+    align-items: center;
+}
+
+.image2{
+    height:300px;
+    width: 500px;
+}
+
+.text2{
+    color: grey;
+    width: 500px;
+}
+
+/* Section 5 */
+
+.footer{
+    background-color: black;
+    padding: 50px;
+    margin-top: 108px;
+}
+
+.footertext{
+    color: white;
+    text-align: center;
+}
